@@ -1,0 +1,399 @@
+@import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
+html {
+    height: 100%;
+}
+
+body {
+   font-size: 12px;
+    position: relative;
+    min-height: 100%;
+    box-sizing: border-box;
+    padding-bottom: 80px;
+  text-align: center;
+ background-image: url('https://wallpaperaccess.com/full/2345298.png');
+ background-color: black;
+  padding: 0px;
+  margin: 0px;
+  border-style: double;
+  border-radius: 10px;
+  border-color: #00FF00;
+  border-width: 2px;
+  animation-name: bodyborder;
+  animation-iteration-count: infinite;
+  animation-duration: 5s;
+  animation-direction: right;
+}
+
+
+/*✼ •• ┈┈┈┈๑⋅⋯ ୨˚୧ ⋯⋅๑┈┈┈┈ •• ✼
+ Hiệu Ứng Tuyết Rơi - Có Thể Thay Thế Bằng Lá Hoa Mai, Anh Đào, Hạt Bụi
+ ✼ •• ┈┈┈┈๑⋅⋯ ୨˚୧ ⋯⋅๑┈┈┈┈ •• ✼
+
+  html{position: relative;}
+html:after {content: '';display: block;position: absolute;z-index: 2;top: 0;left: 0;right: 0;bottom: 0;pointer-events: none;background-image: url('https://cdn.glitch.me/2a4d780f-b9e8-4739-9886-831c1d5fcdb0%2F26a4f5a3-8dcd-4eed-afcb-72f99c6aa653.image.png?v=1639136324336'), url('https://cdn.glitch.me/2a4d780f-b9e8-4739-9886-831c1d5fcdb0%2F7f115bbb-5f47-4e19-98b7-dbf4a359a00c.image.png?v=1639136365819'), url('https://cdn.glitch.me/2a4d780f-b9e8-4739-9886-831c1d5fcdb0%2F5a01e66e-33a3-4aad-96f5-87d8336d3fa4.image.png?v=1639136393414');animation: snow 10s linear infinite;}
+@keyframes snow{0%{background-position: 0px 0px, 0px 0px, 0px 0px;}50% {background-position: 500px 500px, 100px 200px, -100px 150px;}
+100%{background-position: 500px 1000px, 200px 400px, -100px 300px;}}
+::-webkit-scrollbar {
+  width: 8px;
+  height: 15px;
+}
+ */
+/*
+✼ •• ┈┈┈┈๑⋅⋯ ୨˚୧ ⋯⋅๑┈┈┈┈ •• ✼
+          THANH BAR
+✼ •• ┈┈┈┈๑⋅⋯ ୨˚୧ ⋯⋅๑┈┈┈┈ •• ✼
+*/
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 1px grey; 
+
+
+}
+::-webkit-scrollbar-thumb {
+  background: #00FF00; 
+ 
+
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #FFFF00; 
+
+}
+
+.Blob {
+  border-radius: 50%;
+  margin: 20px;
+  height: 280px;
+  width: 300px; 
+   box-sizing: border-box;
+  overflow: hidden;
+   box-shadow: 0 0 10px 1px #ffffff,
+    color: #6666ff;
+  }
+
+.Blob2 {
+  margin: 20px;
+  height: 350px;
+  width: 330px; 
+   box-sizing: border-box;
+  overflow: hidden;
+   box-shadow: 0 0 10px 3px #33ff33;
+  }
+
+
+
+.css-typing p {
+    color: #00FF00;
+  border-right: .21em solid orange;
+  font-family: "Courier";
+  font-size: 14px;
+  white-space: nowrap;
+  overflow: hidden;
+}
+.css-typing p:nth-child(1) {
+  width: 14.3em;
+  -webkit-animation: type 2s steps(40, end);
+  animation: type 2s steps(40, end);
+  -webkit-animation-fill-mode: forwards;
+  animation-fill-mode: forwards;
+}
+
+.css-typing p:nth-child(2) {
+  width: 15.5em;
+  opacity: 0;
+  -webkit-animation: type2 2s steps(40, end);
+  animation: type2 2s steps(40, end);
+  -webkit-animation-delay: 2s;
+  animation-delay: 2s;
+  -webkit-animation-fill-mode: forwards;
+  animation-fill-mode: forwards;
+}
+
+.css-typing p:nth-child(3) {
+  width: 18.6em;
+  opacity: 0;
+  -webkit-animation: type3 5s steps(20, end), blink .5s step-end infinite alternate;
+  animation: type3 5s steps(20, end), blink .5s step-end infinite alternate;
+  -webkit-animation-delay: 4s;
+  animation-delay: 4s;
+  -webkit-animation-fill-mode: forwards;
+  animation-fill-mode: forwards;
+}
+
+@keyframes type {
+  0% {
+    width: 0;
+  }
+  99.9% {
+    border-right: .15em solid orange;
+  }
+  100% {
+    border: none;
+  }
+}
+
+@-webkit-keyframes type {
+  0% {
+    width: 0;
+  }
+  99.9% {
+    border-right: .15em solid orange;
+  }
+  100% {
+    border: none;
+  }
+}
+
+@keyframes type2 {
+  0% {
+    width: 0;
+  }
+  1% {
+    opacity: 1;
+  }
+  99.9% {
+    border-right: .15em solid orange;
+  }
+  100% {
+    opacity: 1;
+    border: none;
+  }
+}
+
+@-webkit-keyframes type2 {
+  0% {
+    width: 0;
+  }
+  1% {
+    opacity: 1;
+  }
+  99.9% {
+    border-right: .15em solid orange;
+  }
+  100% {
+    opacity: 1;
+    border: none;
+  }
+}
+
+@keyframes type3 {
+  0% {
+    width: 0;
+  }
+  1% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@-webkit-keyframes type3 {
+  0% {
+    width: 0;
+  }
+  1% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes blink {
+  50% {
+    border-color: transparent;
+  }
+}
+@-webkit-keyframes blink {
+  50% {
+    border-color: tranparent;
+  }
+}
+
+
+@keyframes blink {
+  50% {
+    border-color: transparent;
+  }
+}
+@-webkit-keyframes blink {
+  50% {
+    border-color: tranparent;
+  }
+}
+.Screen {
+  position: fixed;
+  width: 100%;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: 5;
+  background-color: rgba(0,0,0,0.15);
+  animation: ScreenEffect 0.05s ease infinite;
+  cursor: pointer;
+}
+
+@keyframes ScreenEffect {
+  0% { opacity: 0 }
+  50% { opacity: 1 }
+  100% { opacity: 0 }
+}
+
+.Pulse {
+  animation: Pulse 1.5s ease infinite;
+}
+
+@keyframes Pulse {
+  0% { opacity: 0 }
+  50% { opacity: 1 }
+  100% { opacity: 0 }
+}
+
+.MatrixTextEffect {
+  color: rgba(125,225,125,0.75);
+  font-family: 'VT323', monospace;
+  font-size: 25px;
+  text-shadow: 0 0 5px rgba(125,225,125,0.5), 0 0 15px rgba(125,250,125,1);
+}
+
+
+
+
+/*
+▬▬▬▬▬▬▬▬▬▬
+  TEXTS
+▬▬▬▬▬▬▬▬▬▬
+*/
+.ThanhDieuName {
+   margin: 120px;
+  color: #33ff33;
+  padding: 0;
+  font-size: 22px;
+  line-height: 1.8;
+  margin-bottom: 0;
+  text-shadow: -1px 0 5px GREEN, 
+               0 1px 5px GREEN, 
+               1px 0 5px GREEN, 
+               0 -1px 3px GREEN;
+  animation: blinker 1s linear infinite;
+}
+
+@keyframes blinker {
+  50% {
+    opacity: 0;
+  }
+}
+
+
+.NameFtThanhDieu {
+  color: #00FF00;
+    animation: Pulse 1s ease infinite;
+    height: 100px;
+  padding: 0;
+  font-size: 50px;
+  line-height: 1.8;
+  margin-bottom: 0;
+text-shadow: -1px 0 5px green, 
+               0 -1px 20px white;
+               text-shadow:     0 1px 0 hsl(174,5%,80%),
+                   0 2px 0 hsl(174,5%,75%),
+                   0 3px 0 hsl(174,5%,70%),
+                   0 4px 0 hsl(174,5%,66%),
+                   0 5px 0 hsl(174,5%,64%),
+                   0 6px 0 hsl(174,5%,62%),
+                   0 7px 0 hsl(174,5%,61%),
+                   0 8px 0 hsl(174,5%,60%),
+                   0 0 5px rgba(0,255,0),
+                  0 1px 3px rgba(0,255,0),
+                  0 3px 5px rgba(0,255,0),
+                 0 5px 10px rgba(0,255,0),
+                0 10px 10px rgba(0,0,0,.2),
+                0 20px 20px rgba(0,0,0,.3);
+}
+
+.NameFtThanhDieu2 {
+  color: #00FF00;
+    height: 100px;
+  padding: 0;
+  font-size: 25px;
+  line-height: 1.8;
+  margin-bottom: 0; 
+  text-shadow: -1px 0 5px green, 
+               0 -1px 20px white;
+            
+}
+
+
+.ThongDepCuoiCung {
+   font-size: 27px;
+  transition: .5s;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding: 1px;
+  box-shadow: 0 1px 0px 1px #555;
+  color: #00ff00;
+  width: 99,9%;
+    text-shadow: -1px 0 5px green, 
+               0 -1px 10px white;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 5px;
+  margin-bottom: 10px;
+  border-radius: 2px;
+  box-shadow: 0 0 3px 0px #33FF33;
+  text-align: center;
+  padding: 0px;
+  margin: 0px;
+  border-style: double;
+  border-radius: 2px;
+  border-color: #00FF00;
+  border-width: 2px;
+  animation-name: bodyborder;
+  animation-iteration-count: infinite;
+  animation-duration: 5s;
+  animation-direction: right;
+}
+
+
+#scroll-container {
+  border: 3px solid black;
+  border-radius: 5px;
+  overflow: hidden;
+}
+
+#scroll-text {
+  /* animation properties */
+  -moz-transform: translateX(100%);
+  -webkit-transform: translateX(100%);
+  transform: translateX(100%);
+  
+  -moz-animation: my-animation 15s linear infinite;
+  -webkit-animation: my-animation 15s linear infinite;
+  animation: my-animation 15s linear infinite;
+}
+
+/* for Firefox */
+@-moz-keyframes my-animation {
+  from { -moz-transform: translateX(100%); }
+  to { -moz-transform: translateX(-100%); }
+}
+
+/* for Chrome */
+@-webkit-keyframes my-animation {
+  from { -webkit-transform: translateX(100%); }
+  to { -webkit-transform: translateX(-100%); }
+}
+
+@keyframes my-animation {
+  from {
+    -moz-transform: translateX(100%);
+    -webkit-transform: translateX(100%);
+    transform: translateX(100%);
+  }
+  to {
+    -moz-transform: translateX(-100%);
+    -webkit-transform: translateX(-100%);
+    transform: translateX(-100%);
+  }
